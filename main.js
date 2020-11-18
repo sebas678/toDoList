@@ -11,6 +11,7 @@ addToDo.addEventListener('click',function () {
 
   paragraph.addEventListener('click',function(){
     paragraph.style.textDecoration="line-through";
+    paragraph.style.backgroundColor="#F2B1A2";
   })
 
   paragraph.addEventListener('dblclick',function(){
